@@ -1,0 +1,154 @@
+*{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+body{
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+header{
+  display: flex;
+  flex-wrap: wrap;
+  position: fixed;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  width: 100%;
+  height: 69px;
+  z-index: 1;
+}
+
+header img{
+  height: 50px;
+  padding-left: 10px;
+}
+
+.logo{
+  margin-left: 10px;
+  height: 50px;
+}
+
+nav{
+  display: block;
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav a{
+  padding: 20px 10px;
+}
+
+.content{
+  display: block;;
+  padding-top: 69px;
+  margin-left: 20px;
+  width: 100%;
+  justify-content: center;
+}
+
+.mission{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 70px;
+  background-image: url(../images/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+
+}
+
+.missionStatement{
+  margin-top: 280px;
+  background-color: black;
+  height: 120px;
+  background-color: black;
+  width: 100%;
+}
+
+.teaOfMonth{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.teaContent{
+  width: 1000px;
+}
+
+.teaItems{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.picAndTitle{
+  padding: 5px;
+  text-align: center;
+}
+
+.picAndTitle img{
+  height: 200px;
+  margin: 10px;
+}
+
+.locations{
+  background-image: url(../images/img-locations-background.jpg);
+  padding-top: 50px;
+  height: 500px;
+  width: 1200px;
+  display: block;
+  justify-content: center;
+}
+
+.locations h2{
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 15px;
+  background-color: transparent;
+}
+
+.addresses{
+  background-color: transparent;
+  height: 290px;
+}
+
+.locationItems{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 15px;
+  margin-right: 40px;
+  width: 300px;
+  opacity: 1;
+  background-color: black;
+}
+
+.footer{
+  height: 200px;
+}
+
+.footer h2{
+  font-size: 1.5em;
+}
+
+.footer h5{
+  font-size: 0.83em;
+}
+
+.copyright{
+  display: flex;
+  padding-left: 20px;
+}
+
+.copyright h5{
+    font-size: 0.83em;
+}
